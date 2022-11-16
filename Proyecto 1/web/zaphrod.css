@@ -65,7 +65,23 @@ text-decoration:none;
     position:center;
 }
 
-.title{
+.title1{
+    text-align:center;
+    font-family:monospace;
+    font-size: 4rem;
+    color:rgb(188, 69, 201);
+
+}
+
+.title2{
+    text-align:center;
+    font-family:monospace;
+    font-size: 3rem;
+    color:rgb(188, 69, 201);
+
+}
+
+.title3{
     text-align:center;
     font-family:monospace;
     font-size: 4rem;
