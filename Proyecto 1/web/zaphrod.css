@@ -1,0 +1,82 @@
+@charset "utf-8";
+html{
+height:100%;
+}
+main{
+width: 99%;
+height: auto;
+margin:0 auto;
+background: rgb(255, 255, 255);
+}
+.lateral{
+box-sizing: border-box;
+width: max(8%, 300px);
+display: inline-block;
+position: fixed; 
+padding-top: 10px;
+}
+.principal{
+margin-left: max(10%, 300px);
+padding: 0 10px;
+height: auto;
+text-align: justify;
+background:rgb(255, 255, 255);
+}
+.lateral header{
+font-family: monospace;
+font-weight: bold;
+font-size: 1.5rem;
+text-align: center;
+border-bottom: 1px solid rgb(211, 40, 40);
+background: rgb(255, 7, 152)
+}
+.lateral ul{
+list-style:none;
+padding-left:0;
+margin-top:0;
+
+}
+/*links de la barra lateral*/
+.lateral ul li{
+display:block;
+position: relative;
+padding: 8px 10px;
+margin-left:0;
+border-bottom:1px solid #060696;
+}
+.lateral ul li a{
+text-decoration:none;
+}
+.imagen{
+    max-width: 100%;
+    height: auto;
+    position: center;
+}
+
+.rosa{
+    max-width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.a{
+    position:center;
+}
+
+.title{
+    text-align:center;
+    font-family:monospace;
+    font-size: 4rem;
+    color:rgb(188, 69, 201);
+
+}
+
+.para{
+    text-align:center;
+    font-family:monospace;
+    font-size: 2rem;
+    color:rgb(255, 0, 119);
+
+}
